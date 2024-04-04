@@ -11,7 +11,7 @@ import './common.css';
 export default function SignInContainer() {
     return (
         <>
-        <IdInputBox />
+        <IdInputBox lable="아이디" type="text" placeholder="아이디를 입력하세요." />
         <PasswordInputBox />
         </>
     );
