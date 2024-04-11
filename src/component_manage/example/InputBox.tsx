@@ -1,4 +1,5 @@
 import React from "react";
+import EventComponent from "../../interaction/EventComponent";
 
 export interface InputBoxProps {
     label: string;
@@ -11,6 +12,7 @@ export default function InputBox({ label, type, placeholder, buttonTitle }: Inpu
 
     return (
         <div className="input-box">
+            <EventComponent />
             <div className="input-label label">{label}</div>
             <div className="input-content-box">
                 <input
